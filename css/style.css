@@ -1,0 +1,104 @@
+/*===== NAVBAR =====*/
+/* bootstrap dropdown hover menu*/
+.localNav {
+	background-color: #596DE7;
+}
+
+.localNavList:hover {
+	background-color: #007bff;
+}
+
+.active {
+	background-color: #007bff;
+	color: #fff;
+}
+
+#localNavHome,
+#localNavHome:hover,
+#localNavZones,
+#localNavZones:hover,
+#localNavGallery,
+#localNavGallery:hover,
+#localNavAbout,
+#localNavAbout:hover,
+#localNavInvolve,
+#localNavInvolve:hover,
+#localNavNews,
+#localNavNews:hover,
+#localNavWeb,
+#localNavWeb:hover {
+	color: #fff;
+}
+
+.dropdown-menu {
+	background-color: #007bff;
+}
+
+.dropdown-item {
+	color: #fff;
+}
+
+.dropdown-item:hover {
+	background-color: #008cff;
+	color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+
+/*===== COURASEL =====*/
+.localStyleSlide {
+	height: calc(100vh - 78px);
+}
+
+.localImg {
+	height: calc(100vh - 78px); 
+}
+
+.localStyleText {
+	background-color: rgba(100, 100, 100, 0.3);
+	margin-bottom: 10%;
+	/*font-size: 2em;*/
+}
+
+.localStyleText h5 {
+	font-size: 3em;
+	font-family: cursive;
+}
+
+/*===== BODY =====*/
+
+/*===== banner =====*/
+#local-container-fluid {
+	background-color: #596DE7;
+	padding: 
+}
+
+/*===== Footer =====*/
+#footer {
+	background-color: #596DE7;
+	height: auto;
+}
+
+.footerP {
+	font-size: 0.7rem;
+	color: #fff;
+}
+
+.footerImg {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+#powered {
+	text-align: center;
+	font-size: 1rem;
+}
+
+#mit {
+	color: #0ff;
+	cursor: pointer;
+}
