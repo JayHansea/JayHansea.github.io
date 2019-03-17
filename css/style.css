@@ -97,7 +97,6 @@
 /*===== banner =====*/
 #local-container-fluid {
 	background-color: #e3e3e3;
-	padding: 
 }
 
 .banner-text {
@@ -145,4 +144,121 @@
 #mit {
 	color: #007bff;
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+	/*===== social media =====*/
+	h4 {
+		font-size: 1.4rem;
+	}
+
+	.section-one {
+		margin: 0 2vw 5vh 0; 
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	/*===== COURASEL =====*/
+	.localStyleSlide {
+		height: calc(50vh - 78px);
+	}
+
+	.localImg {
+		height: calc(50vh - 78px); 
+	}
+
+	.localStyleText {
+		width: 100%;
+		height: calc(50vh - 78px);
+		background-color: rgba(100, 100, 100, 0.3);
+		right: 0;
+		left: 0;
+		display: block!important;
+		bottom: 0;
+		/*margin-bottom: 10%;*/
+		/*font-size: 2em;*/
+	}
+
+	.localStyleText h5 {
+		font-size: 1.5em;
+		font-family: cursive;
+		margin-top: 35%;
+	}
+
+	/*===== banner =====*/
+	#local-container-fluid {
+		background-color: #e3e3e3;
+	}
+
+	.banner-text {
+		color: #a0a0a0;
+		margin: 2vh 0;
+	}
+
+	/*===== social media =====*/
+	h4 {
+		font-size: 1.4rem;
+	}
+
+	.main-section {
+		width: 80vw;
+	}
+
+	.section-one {
+		/*width: 50vw;*/
+		margin: 0 0 5vh 0; 
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	/*===== COURASEL =====*/
+	.localStyleSlide {
+		height: calc(50vh - 78px);
+	}
+
+	.localImg {
+		height: calc(50vh - 78px); 
+	}
+
+	.localStyleText {
+		width: 100%;
+		height: calc(50vh - 78px);
+		background-color: rgba(100, 100, 100, 0.3);
+		right: 0;
+		left: 0;
+		display: block!important;
+		bottom: 0;
+		/*margin-bottom: 10%;*/
+		/*font-size: 2em;*/
+	}
+
+	.localStyleText h5 {
+		font-size: 1.5em;
+		font-family: cursive;
+		margin-top: 35%;
+	}
+
+	/*===== banner =====*/
+	#local-container-fluid {
+		background-color: #e3e3e3;
+	}
+
+	.banner-text {
+		color: #a0a0a0;
+		margin: 2vh 0;
+	}
+
+	/*===== social media =====*/
+	h4 {
+		font-size: 1.4rem;
+	}
+
+	.main-section {
+		width: 100vw;
+	}
+
+	.section-one {
+		margin: 0 0 5vh 0; 
+	}
 }
