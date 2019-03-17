@@ -5,6 +5,7 @@
 }
 
 .mainContainer {
+	width: 100vw;
 	padding: 0;
 }
 
@@ -13,16 +14,6 @@
 .localNav {
 	background-color: #e3e3e3;
 }
-
-.localNavList:hover {
-	/*background-color: #007bff;*/
-
-}
-
-/*.active {
-	background-color: #007bff;
-	color: #007bff;
-}*/
 
 #localNavHome,
 #localNavZones,
@@ -44,11 +35,11 @@
 #localNavWeb:hover {
 	color: #007bff;
 	text-transform: uppercase;
-	-o-transition: all 1000ms;
+	/*-o-transition: all 1000ms;
     -ms-transition: all 1000ms;
     -moz-transition: all 1000ms;
     -webkit-transition: all 1000ms;
-    transition: all 1000ms;
+    transition: all 1000ms;*/
 }
 
 .dropdown-menu {
@@ -73,7 +64,6 @@
 	border: none;
 	color: #007bff;
 }
-
 
 /*===== COURASEL =====*/
 .localStyleSlide {
@@ -112,6 +102,21 @@
 
 .banner-text {
 	color: #a0a0a0;
+}
+
+/*===== body button =====*/
+.drop-menu {
+	background-color: #007bff;
+}
+
+.drop-text {
+	color: #fff;
+}
+
+.drop-text:hover {
+	background-color: #007bff;
+	color: #fff;
+	font-weight: bold;
 }
 
 /*===== Footer =====*/
