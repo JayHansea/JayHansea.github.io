@@ -1,50 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.mainContainer {
+	padding: 0;
+}
+
 /*===== NAVBAR =====*/
 /* bootstrap dropdown hover menu*/
 .localNav {
-	background-color: #596DE7;
+	background-color: #e3e3e3;
 }
 
 .localNavList:hover {
-	background-color: #007bff;
+	/*background-color: #007bff;*/
+
 }
 
-.active {
+/*.active {
 	background-color: #007bff;
-	color: #fff;
-}
+	color: #007bff;
+}*/
 
 #localNavHome,
-#localNavHome:hover,
 #localNavZones,
-#localNavZones:hover,
 #localNavGallery,
-#localNavGallery:hover,
 #localNavAbout,
-#localNavAbout:hover,
 #localNavInvolve,
-#localNavInvolve:hover,
 #localNavNews,
+#localNavWeb {
+	color: #a0a0a0;
+	font-variant: small-caps;
+}
+
+#localNavHome:hover,
+#localNavZones:hover,
+#localNavGallery:hover,
+#localNavAbout:hover,
+#localNavInvolve:hover,
 #localNavNews:hover,
-#localNavWeb,
 #localNavWeb:hover {
-	color: #fff;
+	color: #007bff;
+	text-transform: uppercase;
+	-o-transition: all 1000ms;
+    -ms-transition: all 1000ms;
+    -moz-transition: all 1000ms;
+    -webkit-transition: all 1000ms;
+    transition: all 1000ms;
 }
 
 .dropdown-menu {
-	background-color: #007bff;
+	background-color: #e3e3e3;
 }
 
 .dropdown-item {
-	color: #fff;
+	color: #a0a0a0;
+	font-variant: small-caps;
 }
 
 .dropdown-item:hover {
-	background-color: #008cff;
-	color: #fff;
+	background-color: #e3e3e3;
+	color: #007bff;
 }
 
 .dropdown:hover>.dropdown-menu {
   display: block;
+}
+
+.button {
+	border: none;
+	color: #007bff;
 }
 
 
@@ -58,33 +85,44 @@
 }
 
 .localStyleText {
+	width: 100%;
+	height: calc(100vh - 78px);
 	background-color: rgba(100, 100, 100, 0.3);
-	margin-bottom: 10%;
+	right: 0;
+	left: 0;
+	display: block!important;
+	bottom: 0;
+	/*margin-bottom: 10%;*/
 	/*font-size: 2em;*/
 }
 
 .localStyleText h5 {
-	font-size: 3em;
+	font-size: 2em;
 	font-family: cursive;
+	margin-top: 25%;
 }
 
 /*===== BODY =====*/
 
 /*===== banner =====*/
 #local-container-fluid {
-	background-color: #596DE7;
+	background-color: #e3e3e3;
 	padding: 
+}
+
+.banner-text {
+	color: #a0a0a0;
 }
 
 /*===== Footer =====*/
 #footer {
-	background-color: #596DE7;
+	background-color: #e3e3e3;
 	height: auto;
 }
 
 .footerP {
 	font-size: 0.7rem;
-	color: #fff;
+	color: #a0a0a0;
 }
 
 .footerImg {
@@ -96,9 +134,10 @@
 #powered {
 	text-align: center;
 	font-size: 1rem;
+	margin-bottom: 0;
 }
 
 #mit {
-	color: #0ff;
+	color: #007bff;
 	cursor: pointer;
 }
